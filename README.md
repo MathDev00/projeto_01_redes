@@ -6,7 +6,7 @@ O projeto consistiu em criar três máquinas virtuais, com intuito de oferecer s
 
 - VM I -> Servidor Web (privado)
 
-Oferece serviços de hospedagens de sistemas web de forma segura. Criação de ambientes de desenvolvimento rápida.
+Oferece serviços de hospedagens de sistemas web de forma segura. Criação de ambientes de desenvolvimento de forma rápida.
 
 - VM II -> Servidor de Banco de Dados (Privado)
 
