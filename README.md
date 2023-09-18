@@ -13,9 +13,24 @@ O projeto consistiu em criar três máquinas virtuais, com intuito de oferecer s
    
 2. Execução
 
-Requisitos:
+Requisitos
 
-- 
+| Nome  | Versão |
+| ------------- | ------------- |
+| Sistema Operacional  | Linux Mint 21.2 |
+| Intereface de virtualização  | Vagrant 2.2.19  |
+| Provedor  |  VirtualBox Versão 6.1.38_Ubuntu r153438 |
+
+Comandos executados
+
+
+| Ordem  | Comando | Descrição |
+
+| ------------- | ------------- | ------------- |
+| 1  | tetse  | teste |
+
+
+
    
 3. Testes e conclusão
 
