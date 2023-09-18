@@ -24,10 +24,10 @@ Requisitos
 Comandos executados
 
 
-| Ordem  | Comando | Descrição |
-
+| Left-aligned | Center-aligned | Right-aligned |
 | ------------- | ------------- | ------------- |
-| 1  | tetse  | teste |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 
