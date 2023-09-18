@@ -24,10 +24,10 @@ Requisitos
 Comandos executados
 
 
-| Left-aligned | Center-aligned | Right-aligned |
+| Ordem | Comandos | Descrição|
 | ------------- | ------------- | ------------- |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| 1   | git status     | git status    |
+| 2     | git diff       | git diff      |
 
 
 
