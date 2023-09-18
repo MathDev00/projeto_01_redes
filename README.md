@@ -2,7 +2,13 @@
 
 1. Introdução
 
-O projeto consistiu em criar três máquinas virtuais, com intuito de oferecer serviços específicos para cada uma.
+O projeto consistiu em criar três máquinas virtuais, com intuito de oferecer serviços específicos
+
+| Nome da VM  | Descrição |
+| ------------- | ------------- |
+|  VM I -> Servidor Web (privado)  | Oferece serviços de hospedagens de sistemas web de forma segura. Criação de ambientes de desenvolvimento de forma rápida.  |
+| Content Cell  | Content Cell  |
+
 
 - VM I -> Servidor Web (privado)
 
