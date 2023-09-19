@@ -27,7 +27,7 @@ Comandos executados para geração da máquina: terminal
 | Ordem | Comandos | Descrição|
 | ------------- | ------------- | ------------- |
 | 1   | vagrant init    | Criação do Vagrantfile. Codificação das máquinas virtuais    |
-| 2     | vagrant up      | Geração da rede computadores com Vagrantfile     |
+| 2     | vagrant up      | Geração da rede de computadores com Vagrantfile     |
 
 
 
