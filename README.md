@@ -21,17 +21,23 @@ Requisitos
 | Intereface de virtualização  | Vagrant 2.2.19  |
 | Provedor  |  VirtualBox Versão 6.1.38_Ubuntu r153438 |
 
-Comandos executados
+Comandos executados para geração da máquina: terminal
 
 
 | Ordem | Comandos | Descrição|
 | ------------- | ------------- | ------------- |
-| 1   | git status     | git status    |
-| 2     | git diff       | git diff      |
+| 1   | vagrant init    | Criação do Vagrantfile. Codificação das máquinas virtuais    |
+| 2     | vagrant up      | Geração da rede computadores com Vagrantfile     |
 
 
 
    
 3. Testes e conclusão
 
-Texto aqui
+| Ordem | VM | Descrição|
+| ------------- | ------------- | ------------- |
+| 1   | VM1    | Teste do synced_folder, checagem de compartilhamento das pastas. Teste de instação do apache, com comandos linux na VM em execução. Teste do ping de comunicação entre as máquinas de mesma rede, com endereço de rede 192.168.56.1|
+| 2     | VM2     | Teste de ping e instação do Mysql     |
+| 3     | VM3    | Teste de ping e instação do Mysql     |
+
+
