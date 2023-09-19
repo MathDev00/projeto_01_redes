@@ -37,7 +37,9 @@ Comandos importante do Vagrantfile: referência do código em ruby do repositór
 | 1   | vm.box   | Configuração do sistema operacional    |
 | 2     | network    | Definição e configuração de rede    |
 | 3     |synced_folder    | Compartilhamento de pasta do host para hospedagem de site    |
-| 4     |provision   | Uso de comandos da linguagem bash para instação de pacotes    |
+| 4     |provision   | Uso de comandos da linguagem bash para instalação de pacotes    |
+| 5    |ip rout add default via   | Rota da rede para gateway (config)   |
+| 6   |sudo iptables e -j MASQURRADE  | RConfiguração do nat para acesso à internet   |
 
 
 
