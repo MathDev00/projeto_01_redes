@@ -36,8 +36,8 @@ Comandos executados para geração da máquina: terminal
 
 | Ordem | VM | Descrição|
 | ------------- | ------------- | ------------- |
-| 1   | VM1    | Teste do synced_folder, checagem de compartilhamento das pastas. Teste de instação do apache, com comandos linux na VM em execução. Teste do ping de comunicação entre as máquinas de mesma rede, com endereço de rede 192.168.56.1|
+| 1   | VM1    | Teste do synced_folder, checagem de compartilhamento das pastas. Teste de instalação do Apache, com comandos Linux na VM em execução. Teste do ping de comunicação entre as máquinas de mesma rede, com endereço de rede 192.168.56.1|
 | 2     | VM2     | Teste de ping e instação do Mysql     |
-| 3     | VM3    | Teste de ping e instação do Mysql     |
+| 3     | VM3    | Teste de configuração da rede pública. Comunicação com outras VM's e provimento de internet para as demais redes. Teste de mascaramento das redes |
 
 
