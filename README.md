@@ -29,7 +29,7 @@ Comandos executados para geração da máquina: terminal
 | 1   | vagrant init    | Criação do Vagrantfile. Codificação das máquinas virtuais    |
 | 2     | vagrant up      | Geração da rede de computadores com Vagrantfile     |
 
-Comandos importante do Vagrantfile: referência do código em ruby do repositório
+Comandos importantes do Vagrantfile: referência do código em ruby do repositório
 
 
 | Ordem | Comandos | Descrição|
