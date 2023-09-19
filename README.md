@@ -19,7 +19,7 @@ Requisitos
 | ------------- | ------------- |
 | Sistema Operacional  | Linux Mint 21.2 |
 | Intereface de virtualização  | Vagrant 2.2.19  |
-| Provedor  |  VirtualBox Versão 6.1.38_Ubuntu r153438 |
+| Provedor  |  VirtualBox Versão 6.1.38 para Ubuntu |
 
 Comandos executados para geração da máquina: terminal
 
