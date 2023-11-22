@@ -2,13 +2,16 @@
 
 1. Introdução
 
-O projeto consistiu em criar três máquinas virtuais, com intuito de oferecer serviços específicos
+O projeto consistiu em criar uma rede de computadores com os requisitos de serviços abaixo
 
-| Nome da VM  | Descrição |
+| N | REQUISITOS |
 | ------------- | ------------- |
-|  VM I -> Servidor Web (privado)  | Oferece serviços de hospedagens de sistemas web de forma segura. Criação de ambientes de desenvolvimento de forma rápida.  |
-| VM II -> Servidor de Banco de Dados (Privado)  | Oferece serviços de armazenamento e compatilhamento do banco de dados da aplicação.  |
-| VM III ->  Gateway (Privado DHCP e Pública) | Facilita comunicação entre dispositivos. Fornece segurança para controle de trafego na internet. |
+|  RQ01  | Configure um servidor DHCP no ambiente Linux para atribuir endereços IP automaticamente aos dispositivos na rede. |
+| RQ02  |Implante um servidor DNS para resolver nomes de domínio dentro da rede e configurar registros DNS como A, CNAME, MX  |
+| RQ03| Configure e hospede um servidor web Apache ou Nginx para fornecer serviços de hospedagem de sites internos|
+| RQ04| Implemente um servidor FTP (por exemplo, vsftpd) para permitir a transferência de arquivos na rede |
+| RQ05| Configure um servidor NFS para compartilhar diretórios e arquivos entre máquinas na rede.|
+
 
    
 2. Execução
@@ -20,6 +23,8 @@ Requisitos
 | Sistema Operacional  | Linux Mint 21.2 |
 | Intereface de virtualização  | Vagrant 2.2.19  |
 | Provedor  |  VirtualBox Versão 6.1.38 para Ubuntu |
+| Serviços  |  Docker 24.0.5 |
+
 
 Comandos executados para geração da máquina: terminal
 
