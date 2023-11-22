@@ -38,7 +38,7 @@ Máquinas Virtuais
 | ------------- | ------------- | ------------- |
 | VM1  | DHCP| Automatiza a atribuição de endereços IP e configurações de rede para dispositivos em uma rede |
 | VM2  | DNS | Associando nomes de domínio a endereços IP correspondentes |
-| VM3  | APACHE, FTP E NFS | serviços de hospedagem web, transferência de arquivos e compartilhamento de arquivos em uma infraestrutura de rede |
+| VM3  | APACHE, FTP E NFS | Serviços de hospedagem web, transferência de arquivos e compartilhamento de arquivos em uma infraestrutura de rede |
 
 
 *descrever configuração dos conteiners...
