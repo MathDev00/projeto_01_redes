@@ -25,14 +25,21 @@ Requisitos
 | Provedor  |  VirtualBox Versão 6.1.38 para Ubuntu |
 | Fornecimento de serviços para as VM's  |  Docker 24.0.5 |
 
-
-Comandos executados para geração da máquina: terminal
-
+Comandos básicos
 
 | Ordem | Comandos | Descrição|
 | ------------- | ------------- | ------------- |
 | 1    | vagrant up      | Geração da rede de computadores com Vagrantfile |
 | 2    | docker run     | Fornecimento dos serviços solicitados por meio da conteinerização|
+
+Máquinas Virtuais
+
+| Nome  | Serviços | Descrição|
+| ------------- | ------------- | ------------- |
+| VM1  | DHCP| Automatiza a atribuição de endereços IP e configurações de rede para dispositivos em uma rede |
+| VM2  | DNS | Associando nomes de domínio a endereços IP correspondentes |
+| VM3  | APACHE, FTP E NFS | serviços de hospedagem web, transferência de arquivos e compartilhamento de arquivos em uma infraestrutura de rede |
+
 
 *descrever configuração dos conteiners...
 
