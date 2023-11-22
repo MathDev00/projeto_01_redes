@@ -14,7 +14,7 @@ O projeto consistiu em criar uma rede de computadores com os requisitos de servi
 
 
    
-2. Execução
+2. Execução e configuração dos container
 
 Requisitos
 
@@ -23,7 +23,7 @@ Requisitos
 | Sistema Operacional  | Linux Mint 21.2 |
 | Intereface de virtualização  | Vagrant 2.2.19  |
 | Provedor  |  VirtualBox Versão 6.1.38 para Ubuntu |
-| Serviços  |  Docker 24.0.5 |
+| Fornecimento de serviços para as VM's  |  Docker 24.0.5 |
 
 
 Comandos executados para geração da máquina: terminal
@@ -31,24 +31,11 @@ Comandos executados para geração da máquina: terminal
 
 | Ordem | Comandos | Descrição|
 | ------------- | ------------- | ------------- |
-| 1   | vagrant init    | Criação do Vagrantfile. Codificação das máquinas virtuais    |
-| 2     | vagrant up      | Geração da rede de computadores com Vagrantfile     |
+| 1    | vagrant up      | Geração da rede de computadores com Vagrantfile |
+| 2    | docker run     | Fornecimento dos serviços solicitados por meio da conteinerização|
 
-Comandos importantes do Vagrantfile: referência do código em ruby do repositório
+*descrever configuração dos conteiners...
 
-
-| Ordem | Comandos | Descrição|
-| ------------- | ------------- | ------------- |
-| 1   | vm.box   | Configuração do sistema operacional    |
-| 2     | network    | Definição e configuração de rede    |
-| 3     |synced_folder    | Compartilhamento de pasta do host para hospedagem de site    |
-| 4     |provision   | Uso de comandos da linguagem bash para instalação de pacotes    |
-| 5    |ip rout add default via   | Rota da rede para gateway (config)   |
-| 6   |sudo iptables e -j MASQURRADE  | RConfiguração do nat para acesso à internet   |
-
-
-
-   
 3. Testes e conclusão
 
 | Ordem | VM | Descrição|
